@@ -11,7 +11,7 @@ import {
 } from '@angular/core/testing';
 
 import { ContractListComponent } from './contract-list.component';
-import { ContractService }       from '../shared';
+import { ContractService }       from '../shared/index';
 
 describe('Component: ContractList', () => {
   it('should create an instance', () => {

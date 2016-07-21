@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgFor }             from '@angular/common';
-import { ContractService }   from '../shared';
+import { ContractService }   from '../shared/index';
 
 @Component({
   moduleId: module.id,
