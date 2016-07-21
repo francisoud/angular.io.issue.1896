@@ -1,3 +1,8 @@
-<p>
-  contract-list works!
-</p>
+<h3>contract-list:</h3>
+<div *ngFor="let contract of contracts">
+<ul>
+  <li>id: {{id}}</li>
+  <li>validFrom: {{contract.validFrom}}</li>
+  <li>validTo: {{contract.validTo}}</li>
+</ul>
+</div>

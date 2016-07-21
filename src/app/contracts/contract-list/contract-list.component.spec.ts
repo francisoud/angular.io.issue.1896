@@ -11,10 +11,11 @@ import {
 } from '@angular/core/testing';
 
 import { ContractListComponent } from './contract-list.component';
+import { ContractService }       from '../shared';
 
 describe('Component: ContractList', () => {
   it('should create an instance', () => {
-    let component = new ContractListComponent();
+    let component = new ContractListComponent(new ContractService());
     expect(component).toBeTruthy();
   });
 });
